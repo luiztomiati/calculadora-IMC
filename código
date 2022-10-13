@@ -1,0 +1,22 @@
+#include <stdio.h>
+using namespace std;
+int main() 
+{
+float massa, p1, a1; 
+printf("digite seu peso "); 
+scanf("%f",& p1); 
+printf("digite sua altura "); 
+scanf("%f",& a1);
+massa= p1/(a1*a1); 
+printf("imc %2.f" ,massa ); 
+if(massa <26){
+printf(" normal " );
+}else{
+if((massa >=26 && massa <30)){
+printf(" obesidade");
+}
+}if (massa>30){
+printf(" obesidade morbida");
+}
+return 0; 
+}
