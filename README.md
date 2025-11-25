@@ -1,4 +1,27 @@
-# calculadora-IMC
-Criação de uma calculadora para o valor de IMC.
-Programa que determina o grau de obesidade de uma pessoa, sendo fornecido o peso e a altura da pessoa. 
-O grau de obesidade é determinado pelo índice da massa corpórea (massa = peso / altura2) através da tabela abaixo: MASSA CORPÓREA GRAU DE OBESIDADE < 26 Normal  26 e < 30 Obeso  30 Obeso Mórbido
+🧮 Calculadora de IMC (Índice de Massa Corporal)
+
+Este é um projeto simples em C que calcula o IMC (Índice de Massa Corporal) do usuário com base no peso e altura informados.
+Após o cálculo, o programa classifica o resultado conforme as faixas oficiais da OMS.
+
+📌 Funcionalidades
+
+Solicita o peso do usuário
+
+Solicita a altura
+
+Calcula o IMC usando a fórmula:
+
+IMC = peso / (altura * altura)
+
+
+Exibe o valor do IMC
+
+Informa a categoria:
+
+Abaixo do peso
+
+Peso normal
+
+Sobrepeso
+
+Obesidade
